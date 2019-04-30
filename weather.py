@@ -2,8 +2,8 @@ import urllib.request
 import json
 
 def GetWeather(city_code):
-	#link1= 'http://api.openweathermap.org/data/2.5/weather?q=' + city_name + ',India' + '&APPID=f447ce8f719458f1c33178bc3639edbe'
-	link1= 'http://api.openweathermap.org/data/2.5/weather?id='+ city_code + '&APPID=f447ce8f719458f1c33178bc3639edbe'
+	#link1= 'http://api.openweathermap.org/data/2.5/weather?q=' + city_name + ',India' + '&APPID=Your API ID'
+	link1= 'http://api.openweathermap.org/data/2.5/weather?id='+ city_code + '&APPID=&APPID=Your API ID'
 	print(link1)
 
 	x = urllib.request.urlopen(link1)
